@@ -1,0 +1,22 @@
+{
+  "name": "kiss-worker-1",
+  "packageManager": "yarn@4.10.3",
+  "version": "0.0.0",
+  "author": "Gabe<yugang2002@gmail.com>",
+  "devDependencies": {
+    "wrangler": "2.12.3"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "publish": "wrangler publish",
+    "deploy": "wrangler publish && wrangler secret put AUTH_VALUE"
+  },
+  "cloudflare": {
+    "bindings": {
+      "APP_KEY": {
+        "description": "插件中的「数据同步密钥」"
+      }
+    }
+  }
+}
