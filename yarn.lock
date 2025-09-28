@@ -1101,9 +1101,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"kiss-worker@workspace:.":
+"kiss-worker-1@workspace:.":
   version: 0.0.0-use.local
-  resolution: "kiss-worker@workspace:."
+  resolution: "kiss-worker-1@workspace:."
   dependencies:
     wrangler: "npm:2.12.3"
   languageName: unknown
